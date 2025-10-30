@@ -1,0 +1,4 @@
+output "vpc_id" {
+  desciption = "The ID of the VPC is created"
+  value = aws_vpc.main.id
+  }
